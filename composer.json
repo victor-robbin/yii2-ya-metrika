@@ -1,0 +1,25 @@
+{
+    "name":              "terrabo/yii2-ya-metrika",
+    "description":       "Yii2 widget to add Ya.Metrika counter on page",
+    "keywords":          [
+        "terrabo",
+        "yii2"
+    ],
+    "type":              "yii2-extension",
+    "license":           "BSD License",
+    "authors":           [
+        {
+            "name":  "Terrabo",
+            "email": "support@terrabo.ru",
+            "homepage": "http://terrabo.ru",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require":           {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {"terrabo\\metrika\\": "src"}
+    }
+}
