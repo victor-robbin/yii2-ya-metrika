@@ -1,5 +1,5 @@
 <?php
-namespace yii\widgets;
+namespace terrabo\yametrika;
 
 use yii\base\Widget;
 
